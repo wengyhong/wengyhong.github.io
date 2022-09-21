@@ -1,0 +1,16 @@
+.navbar{
+    height:240px;
+    position:fixed;
+    width:100%;
+    overflow: hidden;
+    z-index: 99;
+}
+
+/* Page content */
+.content {
+
+
+    padding-top: 240px;
+
+  }
+

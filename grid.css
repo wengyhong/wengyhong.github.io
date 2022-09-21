@@ -1,0 +1,25 @@
+.gridContainer{
+
+    display:grid;
+    align-items: flex-start;
+    justify-content: center;
+
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.gridElement{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+
+}
+
+.gridElement img:hover{
+    cursor: pointer;
+}
+
+.gridElement span{
+    text-align: center;
+}
+
