@@ -1,5 +1,12 @@
 import { showPortfolio } from "./portfolio.js";
 
+// let gridBackground = document.querySelector(".content");
+// gridBackground.classList.add('grid-background');
+// gridBackground.classList.add('imgGradient');
+
+// gridBackground.innerHTML = `
+// <img src='images${games[0].media.images[0]}' alt="tenten"/>`
+
 const toggleGrid= ()=>{
     if (gridContainer.style.display === "none") {
         gridContainer.style=null;
@@ -30,7 +37,7 @@ for(let i =0; i<games.length; i++)
     test.addEventListener("click", toggleGrid);
     test.addev
     test.innerHTML =`
-    <img src='images/tenten.jpg' alt="tenten"/>
+    <img src='images${games[0].media.images[0]}' alt="tenten"/>
     <span>${games[i].title}</span>
 
 
@@ -46,6 +53,8 @@ frag.appendChild(test)
 let body = document.body.querySelector('.content');
 
 
-export {toggleGrid}
 gridContainer.appendChild(frag)
 body.appendChild(gridContainer);
+
+
+export {toggleGrid}

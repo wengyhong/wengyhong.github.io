@@ -1,17 +1,23 @@
 .gridContainer{
+    /* z-index: 99; */
+    /* position: absolute; */
 
+    height:calc(100vh - 100px);
+    width: 1024px;
     display:grid;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: auto auto;
 
 }
 
 .gridElement{
     display:flex;
     flex-direction: column;
-    margin-bottom: 10%;
+    overflow: auto;
+    padding:10px;
 
 }
 
