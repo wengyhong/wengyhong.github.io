@@ -1,9 +1,5 @@
-
-
-
 const showPortfolio = (index)=>
 {
-
     let doc = document.createElement("div");
     doc.classList.add("gameContainer")
     console.log(games);
@@ -24,12 +20,8 @@ const showPortfolio = (index)=>
         let title = document.createElement('div')
         title.innerHTML = `<h2>${currGame.resPoints[i].title}</h2>`
         let points = document.createElement('ul');
-
-
-        console.log(currGame.resPoints[i].points[0])
         for(let m=0; m<currGame.resPoints[i].points.length; m++)
         {
-            console.log(m)
             points.innerHTML = points.innerHTML + "<li>" + currGame.resPoints[i].points[m] + "</li>";
         }
 

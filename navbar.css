@@ -8,9 +8,7 @@
     z-index: 99;
     display:flex;
     align-items: center;
-
     justify-content: center;
-
 }
 
 .navbar-content{
@@ -26,11 +24,13 @@
 }
 
 .back-button{
-  display:none;
+  visibility: hidden;
 }
 
 .navbar-content img{
-height:100%
+  display: block;
+
+  height:80%;
 }
 
 /* Page content */
