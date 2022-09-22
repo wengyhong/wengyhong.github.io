@@ -21,7 +21,7 @@ p{
     font-size:100px
 }
 span{
-    font-size:20px;
+    font-size:15px;
 }
 
  a:hover{
@@ -41,18 +41,26 @@ display:inline
  }
 
  .gameBody{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width:1024px;
+ }
+
+ .gameDesc{
+   width: 1024px;
  }
 
 
 
 .gameMedia{
-    width: 1024px; /* you have to have a size or this method doesn't work */
-    height: 720px; /* think about making these max-width instead - might give you some more responsiveness */
+    width: 100%; /* you have to have a size or this method doesn't work */
+    height: 100%; /* think about making these max-width instead - might give you some more responsiveness */
 
     top: 0; right: 0; /* confuse it i guess */
     bottom: 0; left: 0;
-    margin: auto; /* make em equal */
+    margin-bottom: 20px; /* make em equal */
 }
  .gameTitle{
     font-weight: 400;

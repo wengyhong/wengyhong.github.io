@@ -8,6 +8,8 @@ import { showPortfolio } from "./portfolio.js";
 // <img src='images${games[0].media.images[0]}' alt="tenten"/>`
 
 const toggleGrid= ()=>{
+  window.scrollTo(0,0);
+
     if (gridContainer.style.display === "none") {
         gridContainer.style=null;
         let remove = document.body.querySelector('.gameContainer');
@@ -33,11 +35,11 @@ for(let i =0; i<games.length; i++)
     //link.href=`${games[i].link}`
     const test = document.createElement('div');
     test.classList.add('gridElement')
-    test.addEventListener("click", showPortfolio);
+    test.addEventListener("click", ()=>showPortfolio(i));
     test.addEventListener("click", toggleGrid);
     test.addev
     test.innerHTML =`
-    <img src='images${games[0].media.images[0]}' alt="tenten"/>
+    <img src='images${games[i].media.path + games[i].media.thumbnail}' alt="tenten"/>
     <span>${games[i].title}</span>
 
 

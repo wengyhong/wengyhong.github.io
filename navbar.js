@@ -9,13 +9,12 @@ navContent.classList.add("navbar");
 navbar.appendChild(navContent)
 
 
+import { toggleGrid } from "./grid.js";
 
 
 
 navContent.innerHTML = `<p>Tan Weng Hong</p>`;
-
 navContent.addEventListener('click', toggleGrid)
-import { toggleGrid } from "./grid.js";
 
 let body = document.body;
 body.insertBefore(navContent, body.firstChild);

@@ -2,7 +2,7 @@
     /* z-index: 99; */
     /* position: absolute; */
 
-    height:calc(100vh - 100px);
+    /*height:calc(100vh - 100px);*/
     width: 1024px;
     display:grid;
     flex-direction: column;
@@ -19,6 +19,12 @@
     overflow: auto;
     padding:10px;
 
+}
+.gridElement img{
+    width: 480px;
+    height:300px;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
 
 .gridElement img:hover{
