@@ -63,7 +63,8 @@ const games = [
             ]
 
             ,
-        technology: "Unity"
+        technology: "Unity",
+        position:"Lead Game Programmer(2020 - 2021), Game Programmer(2018-2020)"
     },
     {
         title: "Lyra ",
@@ -105,6 +106,7 @@ const games = [
             },
         ],
         technology: "Unity",
+        position:"Unity Game Developer"
 
     },
     {
@@ -135,7 +137,8 @@ const games = [
                 ]
             }
 
-        ]
+        ],
+        position:"Unity Game Developer"
     },
 
     {
@@ -163,7 +166,9 @@ const games = [
             }
 
         ],
-        technology: "Unity"
+        technology: "Unity",
+        position:"Unity Game Developer"
+
     }, {
         title: "The Plight",
         studio: "Cellar Vault Games",
@@ -180,10 +185,8 @@ const games = [
             'Our team of 5 have no prior experience nor knowledge in Unreal Engine 4 at the starting of doing this project. We are all self taught in using this engine. With no knowledge and also very limited amount of time to deliver a decently finished game product (6 months), we took the advantage of Blueprint for both fast prototyping and full production.'
         ],
         technology: "Unreal Engine 4 and Blueprint",
-        resPoints: []
-
-
-
+        resPoints: [],
+        position:"Game Programmer"
     },
     {
         title: "Caelum's Garden",
@@ -199,7 +202,9 @@ const games = [
         description: "A block based puzzle game where the player has to move the seed to the soil with the help of animals in order for it to bloom. The animals move in a similar way in how Chess and Chinese Chess pieces move.",
         responsibility: ['As the sole game programmer for this project, I coded the game logic for each animal’s movement pattern, winning condition, camera movements, implementing art assets and other minor stuffs. The most challenging yet turned out to be most satisfying is the animal movement logics.'],
         technology: "Unity",
-        resPoints: []
+        resPoints: [],
+        position:"Unity Game Developer"
+
     },
     {
         title: "Space Slash",
@@ -216,7 +221,6 @@ const games = [
         responsibility: ['As the main game programmer for this project, I coded the logics for the player character controls, winning condition and also implementing the art assets. This project also uses Tiled2Unity, allowing designers to design the level and import to the game easily.'],
         resPoints: [],
         technology: "Unity",
-
-
+        position:"Unity Game Developer"
     }
 ]

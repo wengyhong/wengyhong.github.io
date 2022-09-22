@@ -38,6 +38,7 @@ const showPortfolio = (index)=>
             <p>${currGame.title}</p>
             <br>
             <h1>${currGame.studio}</h1>
+            <h2>${currGame.position}</h2>
         </div>
         <img src="/images/${currGame.media.path+ currGame.media.banner}" alt="tenten" />
     </div>
