@@ -8,7 +8,7 @@ const games = [
         media: {
 
             path: "/relegend/",
-            youtube: "https://www.youtube.com/embed/00hkQhJdR_g",
+            youtube: "https://www.youtube.com/embed/9VKuP_4zZz8",
             thumbnail: "relegend.jpg",
             banner: "relegend.jpg"
 
