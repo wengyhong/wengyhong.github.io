@@ -17,6 +17,12 @@ body{
     color:white;
 }
 
+a{
+   color:white
+}
+a:hover{
+   color:white
+}
 p{
     font-size:100px
 }
