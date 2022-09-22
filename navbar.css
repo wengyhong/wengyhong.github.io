@@ -1,23 +1,36 @@
 .navbar{
-    width: 100vw;
+    width: 100%;
     background: black;
-    height:100px;
     position:sticky;
+    height:50px;
     top:0;
     overflow: hidden;
     z-index: 99;
-    text-align: center;
-}
-
-.navbar-main{
-    width:100vw;
-    position:sticky;
-    top:0;
     display:flex;
     align-items: center;
+
+    justify-content: center;
+
 }
-.navbar p{
-    font-size:50px;
+
+.navbar-content{
+  width: 1024px;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar-content p{
+  font-size: 100%;
+}
+
+.back-button{
+  display:none;
+}
+
+.navbar-content img{
+height:100%
 }
 
 /* Page content */
