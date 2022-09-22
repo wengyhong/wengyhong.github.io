@@ -187,7 +187,7 @@ const games = [
     },
     {
         title: "Caelum's Garden",
-        studio: "TeamM8",
+        studio: "GPS 2 (University Project)",
         media: {
             path: "/caelum/",
 
@@ -203,7 +203,7 @@ const games = [
     },
     {
         title: "Space Slash",
-        studio: "TeamM8",
+        studio: "GPS 1 (University Project)",
         media: {
             path: "/space/",
 
