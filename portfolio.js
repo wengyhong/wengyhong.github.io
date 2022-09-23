@@ -46,7 +46,7 @@ const showPortfolio = (index)=>
     <div class="gameBody">
         <div class="gameDesc">
             <div class="gameMedia">
-                <iframe width="1024" height="576" src="${currGame.media.youtube}"
+                <iframe src="${currGame.media.youtube}"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>

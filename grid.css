@@ -9,22 +9,25 @@
     align-items: center;
     justify-content: center;
 
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2fr, minmax(20%, 80%));
 
 }
 
 .gridElement{
+    width:100%;
     display:flex;
     flex-direction: column;
-    overflow: auto;
-    padding:10px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 15px;
+
 
 }
 .gridElement img{
-    width: 480px;
+
     height:300px;
     object-fit: cover;
-    margin-bottom: 10px;
+
 }
 
 .gridElement img:hover{

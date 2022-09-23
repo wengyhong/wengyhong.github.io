@@ -51,27 +51,31 @@ display:inline
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width:1024px;
  }
 
  .gameDesc{
-   width: 1024px;
  }
 
-
-
 .gameMedia{
-    width: 100%; /* you have to have a size or this method doesn't work */
-    height: 100%; /* think about making these max-width instead - might give you some more responsiveness */
+   width: 100%;
+   padding-bottom: 56.25%;
+   position: relative;
+   overflow: hidden;
+}
 
-    top: 0; right: 0; /* confuse it i guess */
-    bottom: 0; left: 0;
-    margin-bottom: 20px; /* make em equal */
+.gameMedia iframe{
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   height: 100%;
 }
  .gameTitle{
-   font-weight: 400;
    position: absolute;
    z-index: 1;
+   ;
  }
 
  .imgGradient{
