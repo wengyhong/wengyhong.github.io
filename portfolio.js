@@ -42,7 +42,6 @@ const showPortfolio = (index)=>
     <div class="gameBanner imgGradient">
         <div class="gameTitle">
             <h1>${currGame.title}</h1>
-            <br>
             <h2>${currGame.studio}</h2>
             <h3>${currGame.position}</h3>
         </div>
