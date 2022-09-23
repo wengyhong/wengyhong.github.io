@@ -16,7 +16,7 @@ const games = [
         store: {
             steam: "https://store.steampowered.com/app/823950/ReLegend/"
         },
-        description: "Re:Legend is a monster raising focused JRPG with features such as farming, fishing, crafting, village building, multiplayer and more!<br><br>Available on Steam now! <a href='https://store.steampowered.com/app/823950/ReLegend'>https://store.steampowered.com/app/823950/ReLegend</a>",
+        description: "Re:Legend is a monster raising focused JRPG with features such as farming, fishing, crafting, village building, multiplayer and more!<br><br>Available on Steam now! <br><br><a href='https://store.steampowered.com/app/823950/ReLegend'>CLICK HERE FOR STEAM PAGE</a>",
         responsibility: [
             'When I first joined the project, even though on the surface there were some core systems in place, but the code base is not not scale-able. Therefore, basically we have to rework the entire game.',
             'As a programmer, I work with an interdisciplinary team of artists, designers and programmers to design, prototype and implement new features and rework current features.',
