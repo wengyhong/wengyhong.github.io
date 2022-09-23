@@ -35,10 +35,10 @@ const showPortfolio = (index)=>
 
     <div class="gameBanner imgGradient">
         <div class="gameTitle">
-            <p>${currGame.title}</p>
+            <h1>${currGame.title}</h1>
             <br>
-            <h1>${currGame.studio}</h1>
-            <h2>${currGame.position}</h2>
+            <h2>${currGame.studio}</h2>
+            <h3>${currGame.position}</h3>
         </div>
         <img src="/images/${currGame.media.path+ currGame.media.banner}" alt="tenten" />
     </div>
