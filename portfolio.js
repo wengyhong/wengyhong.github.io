@@ -1,3 +1,9 @@
+var currIndex = sessionStorage.getItem('portFolioIndex');
+
+if(currIndex == null)
+{
+    currIndex = 0;
+}
 const showPortfolio = (index)=>
 {
     let doc = document.createElement("div");
@@ -77,14 +83,14 @@ const showPortfolio = (index)=>
     }
     let moreBody = document.body.querySelector('.content');
 
-
     moreBody.appendChild(doc);
 
     document.body.querySelector('.gameRes').appendChild(pointList)
 }
 
+showPortfolio(currIndex);
 
-export {showPortfolio}
+
 
 // <div class="gameButton">
 // <a href=${currGame.store.steam} target="_blank">
