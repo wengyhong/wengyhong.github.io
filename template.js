@@ -32,6 +32,7 @@ const games = [
                         'Implemented Status Effect system',
                         'Implemented UIs',
                         'Worked with the audio team to implement voice over including localization of voice, utilizing FMOD studio as a middle-ware audio solution.',
+                        'Worked on localization using dictionary key-pair values',
                         'Implemented Life Skills progression system',
                         'Implemented Achievement system with Steamworks, including tracking of stats needed for each achievement',
                         'Implemented House Customization feature where you could place and move furniture, decorate your house',
