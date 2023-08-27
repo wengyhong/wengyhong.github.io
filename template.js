@@ -15,7 +15,7 @@ const games = [
         store: {
 
         },
-        description:"(Still work in progress) <br>Star Symphony is a PVP rhythm game battler. <br> Website: <a href='https://starsymphony.io/'>https://starsymphony.io</a> <br><br>Currently focusing on making a web build with single player mode and leaderboard." ,
+        description:"(Still work in progress) <br>Star Symphony is a PVP rhythm game battler. <br><br> Website: <a href='https://starsymphony.io/' target='_blank'>https://starsymphony.io</a> <br><br>Currently focusing on making a web build with single player mode and leaderboard." ,
         responsibility:['I developed various core gameplay and features. I also implemented the UI/UX to ensure smooth user experience'],
         resPoints:[{
             title:"Gameplay",
@@ -46,7 +46,7 @@ const games = [
         store: {
             steam: "https://store.steampowered.com/app/823950/ReLegend/"
         },
-        description: "Re:Legend is a monster raising focused JRPG with features such as farming, fishing, crafting, village building, multiplayer and more!<br><br>Available on Steam now! <br><br><a href='https://store.steampowered.com/app/823950/ReLegend'>CLICK HERE FOR STEAM PAGE</a>",
+        description: "Re:Legend is a monster raising focused JRPG with features such as farming, fishing, crafting, village building, multiplayer and more!<br><br>Available on Steam now! <br><br><a href='https://store.steampowered.com/app/823950/ReLegend' target='_blank'>CLICK HERE FOR STEAM PAGE</a>",
         responsibility: [
             'When I first joined the project, even though on the surface there were some core systems in place, but the code base is not not scale-able. Therefore, basically we have to rework the entire game.',
             'As a programmer, I work with an interdisciplinary team of artists, designers and programmers to design, prototype and implement new features and rework current features.',
@@ -109,7 +109,7 @@ const games = [
             banner: "1500x500.jpg"
 
         },
-        description: "Lyra is a 2D-Pixel RPG game with farming, creature catching, battling elements. <br>It was then having its focus shifted into NFT Collection. </br></br>Website: <a href='https://mint.lyragame.com'>https://mint.lyragame.com/</a> <br> Twitter: <a href='https://twitter.com/nocartridgeinc'>https://twitter.com/nocartridgeinc </a><br> Opensea: <a href='https://opensea.io/collection/lyra-genesis'> https://opensea.io/collection/lyra-genesis</a> <br> "
+        description: "Lyra is a 2D-Pixel RPG game with farming, creature catching, battling elements. <br>It was then having its focus shifted into NFT Collection. </br></br>Website: <a href='https://mint.lyragame.com' target='_blank'>https://mint.lyragame.com/</a> <br> Twitter: <a href='https://twitter.com/nocartridgeinc' target='_blank'>https://twitter.com/nocartridgeinc </a><br> Opensea: <a href='https://opensea.io/collection/lyra-genesis' target='_blank'> https://opensea.io/collection/lyra-genesis</a> <br> "
 
         ,
         responsibility: ['I developed most of the systems, core gameplay mechanics by translating GDD into playable mechanics. The other developer collaborated with me in implementing the visual side of things like the UI, animations.'],
