@@ -6,12 +6,18 @@ if(currIndex == null)
 }
 const showPortfolio = (index)=>
 {
+
     let doc = document.createElement("div");
     doc.classList.add("gameContainer")
     console.log(games);
 
 
     const currGame = games[index];
+
+    let twitter = document.createElement("div");
+
+    twitter.innerHTML = currGame.media.twitter;
+    doc.appendChild(twitter);
     let resText= "";
     for(let k=0; k< currGame.responsibility.length; k++)
     {
@@ -50,13 +56,20 @@ const showPortfolio = (index)=>
 
     <div class="gameBody">
         <div class="gameDesc">
+
             <div class="gameMedia">
                 <iframe src="${currGame.media.youtube}"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                 </iframe>
+
             </div>
+
+            <div class="gameMedia">
+            ${currGame.media.twitter}
+            </div>
+
             <div class="descItem">
             <span>${currGame.description}</span>
             </br></br
@@ -83,6 +96,7 @@ const showPortfolio = (index)=>
     let moreBody = document.body.querySelector('.content');
 
     moreBody.appendChild(doc);
+
 
     document.body.querySelector('.gameRes').appendChild(pointList)
 }

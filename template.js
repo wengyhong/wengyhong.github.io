@@ -1,5 +1,34 @@
 const games = [
 
+    {
+        title: "Star Symphony",
+        studio: "ISekai Studio",
+        link: "/portfolioItem.html",
+        media: {
+            path: "/starsymphony/",
+            youtube: "",
+            twitter:'<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">First official look at one of our key products at Symphonia. <br><br>BGM by community artist <a href="https://twitter.com/amritasoon?ref_src=twsrc%5Etfw">@amritasoon</a> <br><br>✨🎮 <a href="https://t.co/qbbnhZd8h7">pic.twitter.com/qbbnhZd8h7</a></p>&mdash; Star Symphony (@StarSymphony_io) <a href="https://twitter.com/StarSymphony_io/status/1661385367239442432?ref_src=twsrc%5Etfw">May 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>',
+            thumbnail: "banner.jpg",
+            banner: "banner.jpg"
+
+        },
+        store: {
+
+        },
+        description:"(Still work in progress) <br>Star Symphony is a PVP rhythm game battler. <br> Website: <a href='https://starsymphony.io/'>https://starsymphony.io</a> <br><br>Currently focusing on making a web build with single player mode and leaderboard." ,
+        responsibility:['I developed various core gameplay and features. I also implemented the UI/UX to ensure smooth user experience'],
+        resPoints:[{
+            title:"Gameplay",
+            points:["Implemented leaderboard system using Firebase","Implemented player data save load system via Playfab","Implemented score validation by passing game data into Playfab cloud script for score calculation, then compare with the score submitted by player","Developed song database using scriptable object",
+        "Developed player skill/spell system", "Developed player equipment system", "Developed player stat system, buff/debuff", "Developed 1v1 battle gameplay P2P using Photon Fusion"]
+        },
+    {
+        title:"Tools",
+        points:['Developed in-house beatmap editor for beatmappers to create beatmaps/charts']
+    }],
+        technology:"Unity, Firebase, Photon Fusion, Playfab",
+        position:"Lead Unity Developer"
+    },
 
     {
         title: "Re:Legend",
@@ -65,7 +94,7 @@ const games = [
 
             ,
         technology: "Unity",
-        position:"Lead Game Programmer(2020 - 2021), Game Programmer(2018-2020)"
+        position: "Lead Game Programmer(2020 - 2021), Game Programmer(2018-2020)"
     },
     {
         title: "Lyra ",
@@ -74,11 +103,14 @@ const games = [
             path: "/lyra/",
 
             youtube: "",
-            thumbnail: "thumb3.png",
-            banner: "banner.jpg"
+            twitter:'<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">JUST IN: The brand-new (and our first) trailer for Lyra is here. Showing some early gameplay footage and also a mashup of three original songs for the game. <a href="https://t.co/EhXC28f6Fe">pic.twitter.com/EhXC28f6Fe</a></p>&mdash; Lyra - The Game (@nocartridgeinc) <a href="https://twitter.com/nocartridgeinc/status/1640478545632808961?ref_src=twsrc%5Etfw">March 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>',
+            thumbnail: "1500x500.jpg",
+            banner: "1500x500.jpg"
 
         },
-        description: "Lyra is a 2D-Pixel RPG game with farming, creature catching, battling elements </br></br> This game is still in a work in progress.",
+        description: "Lyra is a 2D-Pixel RPG game with farming, creature catching, battling elements. <br>It was then having its focus shifted into NFT Collection. </br></br>Website: <a href='https://mint.lyragame.com'>https://mint.lyragame.com/</a> <br> Twitter: <a href='https://twitter.com/nocartridgeinc'>https://twitter.com/nocartridgeinc </a><br> Opensea: <a href='https://opensea.io/collection/lyra-genesis'> https://opensea.io/collection/lyra-genesis</a> <br> "
+
+        ,
         responsibility: ['I developed most of the systems, core gameplay mechanics by translating GDD into playable mechanics. The other developer collaborated with me in implementing the visual side of things like the UI, animations.'],
         resPoints: [{
                 title: "Gameplay",
@@ -98,6 +130,10 @@ const games = [
                 ]
             },
             {
+title:"Website",
+points:['Developed mint page and interact with smart contract', 'Developed internal battle page for player to submit team and interact with server via REST API']
+            },
+            {
                 title: "Tools",
                 points: ['Developed editor tools to easily modify the database',
                     'Developed editor tool to modify the formula of the creature growth',
@@ -107,7 +143,7 @@ const games = [
             },
         ],
         technology: "Unity",
-        position:"Unity Game Developer"
+        position: "Unity Game Developer"
 
     },
     {
@@ -139,7 +175,7 @@ const games = [
             }
 
         ],
-        position:"Unity Game Developer"
+        position: "Unity Game Developer"
     },
 
     {
@@ -168,7 +204,7 @@ const games = [
 
         ],
         technology: "Unity",
-        position:"Unity Game Developer"
+        position: "Unity Game Developer"
 
     }, {
         title: "The Plight",
@@ -187,7 +223,7 @@ const games = [
         ],
         technology: "Unreal Engine 4 and Blueprint",
         resPoints: [],
-        position:"Game Programmer"
+        position: "Game Programmer"
     },
     {
         title: "Caelum's Garden",
@@ -204,7 +240,7 @@ const games = [
         responsibility: ['As the sole game programmer for this project, I coded the game logic for each animal’s movement pattern, winning condition, camera movements, implementing art assets and other minor stuffs. The most challenging yet turned out to be most satisfying is the animal movement logics.'],
         technology: "Unity",
         resPoints: [],
-        position:"Unity Game Developer"
+        position: "Unity Game Developer"
 
     },
     {
@@ -222,6 +258,6 @@ const games = [
         responsibility: ['As the main game programmer for this project, I coded the logics for the player character controls, winning condition and also implementing the art assets. This project also uses Tiled2Unity, allowing designers to design the level and import to the game easily.'],
         resPoints: [],
         technology: "Unity",
-        position:"Unity Game Developer"
+        position: "Unity Game Developer"
     }
 ]
