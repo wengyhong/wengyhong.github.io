@@ -14,10 +14,6 @@ const showPortfolio = (index)=>
 
     const currGame = games[index];
 
-    let twitter = document.createElement("div");
-
-    twitter.innerHTML = currGame.media.twitter;
-    doc.appendChild(twitter);
     let resText= "";
     for(let k=0; k< currGame.responsibility.length; k++)
     {

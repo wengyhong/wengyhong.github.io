@@ -38,6 +38,7 @@ const games = [
 
             path: "/relegend/",
             youtube: "https://www.youtube.com/embed/9VKuP_4zZz8",
+            twitter:'',
             thumbnail: "relegend.jpg",
             banner: "relegend.jpg"
 
@@ -152,6 +153,7 @@ points:['Developed mint page and interact with smart contract', 'Developed inter
         media: {
             path: "/rhythm/",
             youtube: "https://www.youtube.com/embed/_uN8TfCQJ24",
+            twitter:'',
             thumbnail: "rhythm.png",
             banner: "rhythm.png"
 
@@ -185,6 +187,7 @@ points:['Developed mint page and interact with smart contract', 'Developed inter
             path: "/ejen/",
 
             youtube: "https://www.youtube.com/embed/lwnfmjnUJXE",
+            twitter:'',
             thumbnail: "banner.jpg",
             banner: "banner.jpg"
 
@@ -213,6 +216,7 @@ points:['Developed mint page and interact with smart contract', 'Developed inter
             path: "/plight/",
 
             youtube: "https://www.youtube.com/embed/8dRyx3kROKY",
+            twitter:'',
             thumbnail: "thumb.jpg",
             banner: "thumb.jpg"
 
@@ -232,6 +236,7 @@ points:['Developed mint page and interact with smart contract', 'Developed inter
             path: "/caelum/",
 
             youtube: "https://www.youtube.com/embed/mItGUaZmHkc",
+            twitter:'',
             thumbnail: "thumb.png",
             banner: "banner2.png"
 
@@ -250,6 +255,7 @@ points:['Developed mint page and interact with smart contract', 'Developed inter
             path: "/space/",
 
             youtube: "https://www.youtube.com/embed/cWfRVIcQByA",
+            twitter:'',
             thumbnail: "thumb.jpg",
             banner: "thumb.png"
 
