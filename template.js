@@ -20,7 +20,7 @@ const games = [
         resPoints:[{
             title:"Gameplay",
             points:["Implemented leaderboard system using Firebase","Implemented player data save load system via Playfab","Implemented score validation by passing game data into Playfab cloud script for score calculation, then compare with the score submitted by player","Developed song database using scriptable object",
-        "Developed player skill/spell system", "Developed player equipment system", "Developed player stat system, buff/debuff", "Developed 1v1 battle gameplay P2P using Photon Fusion"]
+        "Developed player skill/spell system", "Developed player equipment system", "Developed player stat system, buff/debuff", "Developed 1v1 battle gameplay P2P using Photon Fusion", "Developed grade check, accuracy check system", "Implemented player input"]
         },
     {
         title:"Tools",
