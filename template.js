@@ -9,7 +9,8 @@ const games = [
             youtube: "",
             twitter:'<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">First official look at one of our key products at Symphonia. <br><br>BGM by community artist <a href="https://twitter.com/amritasoon?ref_src=twsrc%5Etfw">@amritasoon</a> <br><br>✨🎮 <a href="https://t.co/qbbnhZd8h7">pic.twitter.com/qbbnhZd8h7</a></p>&mdash; Star Symphony (@StarSymphony_io) <a href="https://twitter.com/StarSymphony_io/status/1661385367239442432?ref_src=twsrc%5Etfw">May 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>',
             thumbnail: "banner.jpg",
-            banner: "banner.jpg"
+            banner: "banner.jpg",
+            twitter_desc:"Tweet not showing? Try refreshing page. <br> Link to embedded tweet in case not showing properly: <a href='https://twitter.com/StarSymphony_io/status/1661385367239442432?ref_src=twsrc%5Etfw' target='_blank'> See tweet here </a>"
 
         },
         store: {
@@ -40,7 +41,8 @@ const games = [
             youtube: "https://www.youtube.com/embed/9VKuP_4zZz8",
             twitter:'',
             thumbnail: "relegend.jpg",
-            banner: "relegend.jpg"
+            banner: "relegend.jpg",
+            twitter_desc:""
 
         },
         store: {
@@ -106,7 +108,8 @@ const games = [
             youtube: "",
             twitter:'<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">JUST IN: The brand-new (and our first) trailer for Lyra is here. Showing some early gameplay footage and also a mashup of three original songs for the game. <a href="https://t.co/EhXC28f6Fe">pic.twitter.com/EhXC28f6Fe</a></p>&mdash; Lyra - The Game (@nocartridgeinc) <a href="https://twitter.com/nocartridgeinc/status/1640478545632808961?ref_src=twsrc%5Etfw">March 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>',
             thumbnail: "1500x500.jpg",
-            banner: "1500x500.jpg"
+            banner: "1500x500.jpg",
+            twitter_desc:"Tweet not showing? Try refreshing page. <br> Link to embedded tweet in case not showing properly: <a href='https://twitter.com/nocartridgeinc/status/1640478545632808961?ref_src=twsrc%5Etfw' target='_blank'>See tweet here</a>"
 
         },
         description: "Lyra is a 2D-Pixel RPG game with farming, creature catching, battling elements. <br>It was then having its focus shifted into NFT Collection. </br></br>Website: <a href='https://mint.lyragame.com' target='_blank'>https://mint.lyragame.com/</a> <br> Twitter: <a href='https://twitter.com/nocartridgeinc' target='_blank'>https://twitter.com/nocartridgeinc </a><br> Opensea: <a href='https://opensea.io/collection/lyra-genesis' target='_blank'> https://opensea.io/collection/lyra-genesis</a> <br> "
@@ -155,7 +158,8 @@ points:['Developed mint page and interact with smart contract', 'Developed inter
             youtube: "https://www.youtube.com/embed/_uN8TfCQJ24",
             twitter:'',
             thumbnail: "rhythm.png",
-            banner: "rhythm.png"
+            banner: "rhythm.png",
+            twitter_desc:""
 
         },
         description: "A MVP project for a rhythm game",
@@ -189,7 +193,8 @@ points:['Developed mint page and interact with smart contract', 'Developed inter
             youtube: "https://www.youtube.com/embed/lwnfmjnUJXE",
             twitter:'',
             thumbnail: "banner.jpg",
-            banner: "banner.jpg"
+            banner: "banner.jpg",
+            twitter_desc:""
 
         },
         description: "This game is developed with the grant awarded by Media Prima Sdn Bhd after winning the Ejen Ali Game Jam 2015's Student Category.  <br></br> Ejen Ali MATA Training Academy is a 2D Tapping game for kids being the main audience, featuring 45 levels with various enemy types and game modes. <br><br> It is now available on Google Play and App Store",
@@ -218,7 +223,8 @@ points:['Developed mint page and interact with smart contract', 'Developed inter
             youtube: "https://www.youtube.com/embed/8dRyx3kROKY",
             twitter:'',
             thumbnail: "thumb.jpg",
-            banner: "thumb.jpg"
+            banner: "thumb.jpg",
+            twitter_desc:""
 
         },
         description: "A first-person horror game which follows Wu, the protagonist in his attempt to find out what haunts the house he lives in. Player will uncover Wu’s dark past and recover his lost memories. <br><br>This was a project for our submission of Final Year Project.",
@@ -238,7 +244,8 @@ points:['Developed mint page and interact with smart contract', 'Developed inter
             youtube: "https://www.youtube.com/embed/mItGUaZmHkc",
             twitter:'',
             thumbnail: "thumb.png",
-            banner: "banner2.png"
+            banner: "banner2.png",
+            twitter_desc:""
 
         },
         description: "A block based puzzle game where the player has to move the seed to the soil with the help of animals in order for it to bloom. The animals move in a similar way in how Chess and Chinese Chess pieces move.",
@@ -257,7 +264,8 @@ points:['Developed mint page and interact with smart contract', 'Developed inter
             youtube: "https://www.youtube.com/embed/cWfRVIcQByA",
             twitter:'',
             thumbnail: "thumb.jpg",
-            banner: "thumb.png"
+            banner: "thumb.png",
+            twitter_desc:""
 
         },
         description: "A 2D, 2-players brawler game. Players fight each other in an arena without gravity, with the ability of walk in 4 directions, slashing and boost in mid-air. <br><br> Inspired by Samurai Gunn and 0Space by Teknopants.",

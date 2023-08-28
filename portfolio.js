@@ -64,6 +64,7 @@ const showPortfolio = (index)=>
 
             <div class="gameMedia">
             ${currGame.media.twitter}
+            ${currGame.media.twitter_desc}
             </div>
 
             <div class="descItem">
