@@ -73,6 +73,11 @@ span {
    margin-bottom: 10px;
 }
 
+.gameGallery
+{
+   width: 100%;
+}
+
 .gameMedia iframe {
    max-width: 1024px;
 

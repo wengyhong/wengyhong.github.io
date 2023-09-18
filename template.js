@@ -10,17 +10,18 @@ const games = [
             twitter:'<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">First official look at one of our key products at Symphonia. <br><br>BGM by community artist <a href="https://twitter.com/amritasoon?ref_src=twsrc%5Etfw">@amritasoon</a> <br><br>✨🎮 <a href="https://t.co/qbbnhZd8h7">pic.twitter.com/qbbnhZd8h7</a></p>&mdash; Star Symphony (@StarSymphony_io) <a href="https://twitter.com/StarSymphony_io/status/1661385367239442432?ref_src=twsrc%5Etfw">May 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>',
             thumbnail: "banner.jpg",
             banner: "banner.jpg",
-            twitter_desc:"Tweet not showing? Try refreshing page. <br> Link to embedded tweet in case not showing properly: <a href='https://twitter.com/StarSymphony_io/status/1661385367239442432?ref_src=twsrc%5Etfw' target='_blank'> See tweet here </a>"
+            twitter_desc:"Tweet not showing? Try refreshing page. <br> Link to embedded tweet in case not showing properly: <a href='https://twitter.com/StarSymphony_io/status/1661385367239442432?ref_src=twsrc%5Etfw' target='_blank'> See tweet here </a>",
+            gallery:["/starsymphony/game_01.png", "/starsymphony/game_02.png", ]
 
         },
         store: {
 
         },
-        description:"(Still work in progress) <br>Star Symphony is a PVP rhythm game battler. <br><br> Website: <a href='https://starsymphony.io/' target='_blank'>https://starsymphony.io</a> <br><br>Currently focusing on making a web build with single player mode and leaderboard." ,
+        description:"(Still work in progress) <br>Star Symphony is a PVP rhythm game battler. <br><br> Website: <a href='https://game.starsymphony.io/' target='_blank'>https://game.starsymphony.io</a> <br><br>Currently focusing on making a web build with single player mode and leaderboard." ,
         responsibility:['I developed various core gameplay and features. I also implemented the UI/UX to ensure smooth user experience'],
         resPoints:[{
             title:"Gameplay",
-            points:["Implemented leaderboard system using Firebase","Implemented player data save load system via Playfab","Implemented score validation by passing game data into Playfab cloud script for score calculation, then compare with the score submitted by player","Developed song database using scriptable object",
+            points:["Implemented leaderboard system using Firebase","Implemented player data save load system via Playfab","Implemented UI","Implemented score validation by passing game data into Playfab cloud script for score calculation, then compare with the score submitted by player","Developed song database using scriptable object",
         "Developed player skill/spell system", "Developed player equipment system", "Developed player stat system, buff/debuff", "Developed 1v1 battle gameplay P2P using Photon Fusion", "Developed grade check, accuracy check system", "Implemented player input"]
         },
     {

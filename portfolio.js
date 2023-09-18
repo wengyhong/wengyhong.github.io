@@ -47,7 +47,7 @@ const showPortfolio = (index)=>
             <h2>${currGame.studio}</h2>
             <h3>${currGame.position}</h3>
         </div>
-        <img src="/images/${currGame.media.path+ currGame.media.banner}" alt="tenten" />
+        <img src="/images/${currGame.media.path+ currGame.media.banner}" alt="" />
     </div>
 
     <div class="gameBody">
@@ -65,7 +65,12 @@ const showPortfolio = (index)=>
             <div class="gameMedia">
             ${currGame.media.twitter}
             ${currGame.media.twitter_desc}
+
             </div>
+
+            <div class="gameGallery">
+            </div>
+
 
             <div class="descItem">
             <span>${currGame.description}</span>
@@ -95,7 +100,22 @@ const showPortfolio = (index)=>
     moreBody.appendChild(doc);
 
 
+
     document.body.querySelector('.gameRes').appendChild(pointList)
+
+
+
+    let gallery = document.body.querySelector('.gameGallery')
+    console.log(gallery)
+    for(let i=0; i<currGame.media.gallery.length; i++)
+    {
+        let img = document.createElement("img");
+        img.className="gameGallery"
+        img.src = "/images/" +currGame.media.gallery[i]
+        gallery.appendChild(img);
+    }
+
+
 }
 
 showPortfolio(currIndex);
