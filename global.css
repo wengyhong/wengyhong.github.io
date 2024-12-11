@@ -73,6 +73,23 @@ span {
    margin-bottom: 10px;
 }
 
+.gameMedia2 {
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-bottom: 10px;
+}
+
+.gameMedia2 iframe {
+   max-width: 1024px;
+
+   aspect-ratio: 16 / 9;
+   height: 100%;
+   width: 100%;
+}
+
 .gameGallery
 {
    width: 100%;

@@ -6,18 +6,19 @@ const games = [
         link: "/portfolioItem.html",
         media: {
             path: "/starsymphony/",
-            youtube: "",
-            twitter:'<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">First official look at one of our key products at Symphonia. <br><br>BGM by community artist <a href="https://twitter.com/amritasoon?ref_src=twsrc%5Etfw">@amritasoon</a> <br><br>✨🎮 <a href="https://t.co/qbbnhZd8h7">pic.twitter.com/qbbnhZd8h7</a></p>&mdash; Star Symphony (@StarSymphony_io) <a href="https://twitter.com/StarSymphony_io/status/1661385367239442432?ref_src=twsrc%5Etfw">May 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>',
+            youtube2: "https://www.youtube.com/embed/FtKqH913524",
+            youtube: "https://www.youtube.com/embed/_oNwaap9nU4",
+            twitter:"",
             thumbnail: "banner.jpg",
             banner: "banner.jpg",
-            twitter_desc:"Tweet not showing? Try refreshing page. <br> Link to embedded tweet in case not showing properly: <a href='https://twitter.com/StarSymphony_io/status/1661385367239442432?ref_src=twsrc%5Etfw' target='_blank'> See tweet here </a>",
-            gallery:["/starsymphony/game_01.png", "/starsymphony/game_02.png", ]
+            twitter_desc:"",
+            gallery:[]
 
         },
         store: {
 
         },
-        description:"(Still work in progress) <br>Star Symphony is a PVP rhythm game battler. <br><br> Website: <a href='https://game.starsymphony.io/' target='_blank'>https://game.starsymphony.io</a> <br><br>Currently focusing on making a web build with single player mode and leaderboard." ,
+        description:"(Still work in progress) <br>Star Symphony is a PVP rhythm game battler. <br><br> Website: <a href='https://game.starsymphony.io/' target='_blank'>https://game.starsymphony.io</a> <br><br> <br> Twitter: <a href='https://twitter.com/starsymphonyio' target='_blank'>https://twitter.com/starsymphonyio </a><br> Currently focusing on making a web build with single player mode and leaderboard." ,
         responsibility:['I developed various core gameplay and features. I also implemented the UI/UX to ensure smooth user experience'],
         resPoints:[{
             title:"Gameplay",
@@ -106,11 +107,11 @@ const games = [
         media: {
             path: "/lyra/",
 
-            youtube: "",
-            twitter:'<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">JUST IN: The brand-new (and our first) trailer for Lyra is here. Showing some early gameplay footage and also a mashup of three original songs for the game. <a href="https://t.co/EhXC28f6Fe">pic.twitter.com/EhXC28f6Fe</a></p>&mdash; Lyra - The Game (@nocartridgeinc) <a href="https://twitter.com/nocartridgeinc/status/1640478545632808961?ref_src=twsrc%5Etfw">March 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>',
+            youtube: "https://www.youtube.com/embed/MdBakbt3WPk",
+            twitter:"",
             thumbnail: "1500x500.jpg",
             banner: "1500x500.jpg",
-            twitter_desc:"Tweet not showing? Try refreshing page. <br> Link to embedded tweet in case not showing properly: <a href='https://twitter.com/nocartridgeinc/status/1640478545632808961?ref_src=twsrc%5Etfw' target='_blank'>See tweet here</a>"
+            twitter_desc:""
 
         },
         description: "Lyra is a 2D-Pixel RPG game with farming, creature catching, battling elements. <br>It was then having its focus shifted into NFT Collection. </br></br>Website: <a href='https://mint.lyragame.com' target='_blank'>https://mint.lyragame.com/</a> <br> Twitter: <a href='https://twitter.com/nocartridgeinc' target='_blank'>https://twitter.com/nocartridgeinc </a><br> Opensea: <a href='https://opensea.io/collection/lyra-genesis' target='_blank'> https://opensea.io/collection/lyra-genesis</a> <br> "
@@ -157,7 +158,7 @@ points:['Developed mint page and interact with smart contract', 'Developed inter
         media: {
             path: "/rhythm/",
             youtube: "https://www.youtube.com/embed/_uN8TfCQJ24",
-            twitter:'',
+            twitter:"",
             thumbnail: "rhythm.png",
             banner: "rhythm.png",
             twitter_desc:""
