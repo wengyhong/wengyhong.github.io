@@ -1,4 +1,32 @@
 const games = [
+    {
+        title: "Warriors of Nova Thera",
+        studio: "LiquidX Studio, Mon. Co",
+        link: "/portfolioItem.html",
+        media: {
+            path: "/pixelmon/",
+
+            youtube: "https://www.youtube.com/embed/BEIL2PHSeOE",
+            twitter:"",
+            thumbnail: "banner.jpg",
+            banner: "banner.jpg",
+            twitter_desc:"",
+            gallery:[]
+
+        },
+        store: {steam:"https://store.steampowered.com/app/2913760/Warriors_of_Nova_Thera/"
+
+        },
+        description:"Warriors of Nova Thera is a dungeon crawler with roguelike elements. Make strategic choices and test your abilities against relentless waves of warrior denizens to see if you have what it takes to emerge victorious.<br><br> Website: <a href='https://www.pixelmon.ai/warriorsofnovathera' target='_blank'>https://www.pixelmon.ai/warriorsofnovathera/</a> <br><br> Steam: <a href='https://store.steampowered.com/app/2913760/Warriors_of_Nova_Thera/' target='_blank'>https://store.steampowered.com/app/2913760/Warriors_of_Nova_Thera/</a>" ,
+        responsibility:['I have been involved in most parts of the game, including UIs and SFX.<br><br> I am highly versatile and able to take on and adapt to project demands, solve complex technical challenges, and collaborate effectively with multidisciplinary teams to deliver engaging and polished gaming experiences '],
+        resPoints:[{
+            title:"Gameplay",
+            points:["Implemented Skill Tree upgrade system using scriptable object and supports branching paths", "Implemented UIs with controller navigation support", "Implemented HUDs, showing gameplay progress stats, character states", "Implemented keybinding customization", "Implemented rune system", "Implemented shop system", "Implemented Save system, supporting read write to and from both local and backend", "Improved performance in enemy Behavior tree AI", "Implemented login and register page integrated with backend api and authentication", "Implemented Steam leaderboard for event purposes", "Implemented SFX system via FMOD", "Implemented Loading Screen with hint display", "Implemented room progression system with weighted rulesets for room choices and rewards", "Updated character class structure to be scalable with skill tree upgrade and rune upgrade", "Implemented currency system, adaptable to having different currency type", "Map decoration system(RnD)"]
+        },
+   ],
+        technology:"Unity, FMOD, Photon Fusion",
+        position:"Senior Unity Game Developer"
+    },
 
     {
         title: "Star Symphony",
