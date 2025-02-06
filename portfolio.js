@@ -52,7 +52,13 @@ const showPortfolio = (index)=>
 
     <div class="gameBody">
         <div class="gameDesc">
-
+     <div class="gameMedia3">
+            <iframe src="${currGame.media.youtube3}"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+                </div>
             <div class="gameMedia">
                 <iframe src="${currGame.media.youtube}"
                     title="YouTube video player" frameborder="0"
@@ -69,6 +75,9 @@ const showPortfolio = (index)=>
                     allowfullscreen>
                 </iframe>
                 </div>
+
+
+
 
             <div class="gameMedia">
             ${currGame.media.twitter}
@@ -107,6 +116,12 @@ const showPortfolio = (index)=>
     if(!currGame.media.youtube2)
     {
         doc.querySelector('.gameMedia2').remove()
+    }
+
+
+    if(!currGame.media.youtube3)
+    {
+        doc.querySelector('.gameMedia3').remove()
     }
     let moreBody = document.body.querySelector('.content');
 

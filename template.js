@@ -36,6 +36,7 @@ const games = [
             path: "/starsymphony/",
             youtube2: "https://www.youtube.com/embed/FtKqH913524",
             youtube: "https://www.youtube.com/embed/_oNwaap9nU4",
+            youtube3:"https://www.youtube.com/embed/q5kAoIl_trE",
             twitter:"",
             thumbnail: "banner.jpg",
             banner: "banner.jpg",
@@ -46,12 +47,12 @@ const games = [
         store: {
 
         },
-        description:"(Still work in progress) <br>Star Symphony is a PVP rhythm game battler. <br><br> Website: <a href='https://game.starsymphony.io/' target='_blank'>https://game.starsymphony.io</a> <br><br> <br> Twitter: <a href='https://twitter.com/starsymphonyio' target='_blank'>https://twitter.com/starsymphonyio </a><br> Currently focusing on making a web build with single player mode and leaderboard." ,
-        responsibility:['I developed various core gameplay and features. I also implemented the UI/UX to ensure smooth user experience'],
+        description:"(This is an older version of the game) <br>Star Symphony is meant to be a PVP rhythm battler game. However the version that I worked on is solo play with online features. <br><br> Website: <a href='https://game.starsymphony.io/' target='_blank'>https://game.starsymphony.io</a> <br><br> <br> Twitter: <a href='https://twitter.com/starsymphony_io' target='_blank'>https://twitter.com/starsymphony_io </a><br>" ,
+        responsibility:[' I developed the game from scratch. I also developed a beatmap editor and got the seal of approval by Falk Au Yeong'],
         resPoints:[{
             title:"Gameplay",
-            points:["Implemented leaderboard system using Firebase","Implemented player data save load system via Playfab","Implemented UI","Implemented score validation by passing game data into Playfab cloud script for score calculation, then compare with the score submitted by player","Developed song database using scriptable object",
-        "Developed player skill/spell system", "Developed player equipment system", "Developed player stat system, buff/debuff", "Developed 1v1 battle gameplay P2P using Photon Fusion", "Developed grade check, accuracy check system", "Implemented player input"]
+            points:["Implemented player input", "Implemented note/lane system where note will travel down the lane based on their assigned timestamp","Implemented accuracy checker system based on the difference of the timestamp and the time player hit the notes, whether it's too early or too late", "Implemented leaderboard system using Firebase","Implemented player data save load system via Playfab","Implemented UI","Implemented score validation by passing game data into Playfab cloud script for score calculation, then compare with the score submitted by player","Developed song database using scriptable object",
+        "Developed player skill/spell system", "Developed player equipment system", "Developed player stat system, buff/debuff", "Developed 1v1 battle gameplay P2P using Photon Fusion (prototype)"]
         },
     {
         title:"Tools",
