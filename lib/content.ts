@@ -584,5 +584,6 @@ export const credentials = {
 export const contact = {
   email: "wengyhongwork@gmail.com",
   linkedin: "https://www.linkedin.com/in/wengyhong",
+  github: "https://github.com/wengyhong",
   location: "Kuala Lumpur, Malaysia",
 };

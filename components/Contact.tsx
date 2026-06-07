@@ -5,6 +5,7 @@ export function Contact() {
   const links = [
     { label: "Email", href: `mailto:${contact.email}` },
     { label: "LinkedIn", href: contact.linkedin },
+    { label: "GitHub", href: contact.github },
   ];
 
   return (
