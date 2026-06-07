@@ -29,7 +29,19 @@ export const metadata: Metadata = {
     description:
       "Production-focused Unity and C# engineering portfolio for games, tools, multiplayer systems, backend integrations, and mobile live service development.",
     type: "website",
-    images: ["/images/hero-workspace.png"],
+    images: [
+      {
+        url: "/images/logo.png",
+        alt: "Tan Weng Hong portfolio preview",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Tan Weng Hong | Senior Unity Developer",
+    description:
+      "Production-focused Unity and C# engineering portfolio for games, tools, multiplayer systems, backend integrations, and mobile live service development.",
+    images: ["/images/logo.png"],
   },
 };
 
