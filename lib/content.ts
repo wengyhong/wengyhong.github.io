@@ -602,12 +602,12 @@ export const projects: Project[] = [
 export const timeline = [
   {
     role: "Senior Unity Developer",
-    company: "LiquidX - Hybrid, Kuala Lumpur",
+    company: "LiquidX / Mon.co - Hybrid, Kuala Lumpur",
     years: "Nov 2023 - Present",
     responsibilities:
-      "Build production game systems and mechanics, integrate backend WebSocket/API services, implement UI with controller navigation, integrate FMOD audio, create editor tools, and support multiplayer features with Photon Fusion.",
+      "Build and own production Unity systems across mobile live service titles, spanning gameplay architecture, merge-board and farming loops, worker automation, NPC orders, quests, data-driven FTUE, progression and economy, multi-world content, UI with controller support, FMOD audio, editor tooling, and Photon Fusion multiplayer. Partner with backend engineers on WebSocket and API integration, Firebase and Firestore cloud saves, authentication, Remote Config experiments, live operations, and server-validated purchases. Use OpenAI Codex to accelerate integration, prototyping, debugging, and production delivery.",
     achievements:
-      "Shipped Pixelmon TCG, an online multiplayer TCG mobile live service game with 10K+ downloads, and used OpenAI Codex to accelerate integration, prototyping, and production delivery.",
+      "Shipped Pixelmon TCG and Merge Valley: Farm Tycoon on Google Play, with both titles reaching 10K+ downloads. Strengthened save and purchase security, offline progression, application-resume behavior, world switching, networking reliability, and performance safeguards for slower devices.",
   },
   {
     role: "Lead Unity Developer",
