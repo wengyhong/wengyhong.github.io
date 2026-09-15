@@ -116,6 +116,24 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           </div>
         </section>
 
+        {project.youtubeVideos.length > 0 && (
+          <section className="section-shell py-20">
+            <div className="max-w-2xl">
+              <p className="text-sm font-medium uppercase tracking-[0.16em] text-brass-300">
+                Video
+              </p>
+              <h2 className="mt-4 text-3xl font-semibold text-mist-50">
+                Project videos and walkthroughs.
+              </h2>
+            </div>
+            <div className="mt-10 grid gap-5 lg:grid-cols-2">
+              {project.youtubeVideos.map((video) => (
+                <YoutubeEmbed key={video.id} id={video.id} title={video.title} />
+              ))}
+            </div>
+          </section>
+        )}
+
         <section className="border-y hairline bg-ink-900/62 py-20">
           <div className="section-shell grid gap-12 lg:grid-cols-[0.64fr_1fr]">
             <div>
@@ -187,24 +205,6 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           </div>
         </section>
 
-        {project.youtubeVideos.length > 0 && (
-          <section className="section-shell py-20">
-            <div className="max-w-2xl">
-              <p className="text-sm font-medium uppercase tracking-[0.16em] text-brass-300">
-                Video
-              </p>
-              <h2 className="mt-4 text-3xl font-semibold text-mist-50">
-                Project videos and walkthroughs.
-              </h2>
-            </div>
-            <div className="mt-10 grid gap-5 lg:grid-cols-2">
-              {project.youtubeVideos.map((video) => (
-                <YoutubeEmbed key={video.id} id={video.id} title={video.title} />
-              ))}
-            </div>
-          </section>
-        )}
-
         {project.gallery.length > 0 && (
           <section className="section-shell pb-24">
             <div className="max-w-2xl">
@@ -226,7 +226,11 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                     alt={image.alt}
                     fill
                     sizes="(min-width: 768px) 50vw, 100vw"
-                    className="object-cover opacity-86"
+                    className={
+                      image.fit === "contain"
+                        ? "object-contain opacity-90"
+                        : "object-cover opacity-86"
+                    }
                   />
                 </div>
               ))}

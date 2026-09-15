@@ -33,6 +33,7 @@ export type Project = {
   gallery: {
     src: string;
     alt: string;
+    fit?: "cover" | "contain";
   }[];
   youtubeVideos: {
     id: string;
@@ -51,6 +52,99 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+    slug: "merge-valley-farm-tycoon",
+    name: "Merge Valley: Farm Tycoon",
+    description:
+      "A released mobile merge-farming tycoon that combines a strategic merge board, crop production, automated monster workers, multi-world progression, quests, live events, and a secure cloud-backed economy.",
+    stack: [
+      "Unity",
+      "C#",
+      "Zenject",
+      "Addressables",
+      "Firebase",
+      "Firestore",
+      "Google Play Services",
+      "Live Ops",
+    ],
+    challenge:
+      "Build and evolve a production-scale mobile game whose merge board, farming simulation, worker automation, economy, tutorials, multi-world progression, offline progress, cloud saves, and monetization systems all remain reliable as the product grows.",
+    outcome:
+      "Helped take the game from its initial Unity foundation to a live Google Play release with 10K+ downloads, contributing 1,782 of 3,803 repository commits (46.9%) across gameplay, architecture, backend integration, live operations, tooling, polish, and release stability.",
+    contributionSummary:
+      "Established the project’s technical foundation and delivered major systems across the full game: the merge board, farming and worker automation, NPC orders, quests, data-driven FTUE, stations, multi-world progression, economy, cloud saves, authentication, secure purchases, live operations, story content, UI/UX, audiovisual feedback, and developer tooling.",
+    thumbnail: "/images/merge-valley/banner.jpg",
+    headerImage: "/images/merge-valley/banner.jpg",
+    gallery: [
+      {
+        src: "/images/merge-valley/banner.jpg",
+        alt: "Merge Valley: Farm Tycoon promotional artwork",
+      },
+      {
+        src: "/images/merge-valley/merge-valley-01.jpg",
+        alt: "Merge Valley merge-board gameplay featuring tools and item progression",
+        fit: "contain",
+      },
+      {
+        src: "/images/merge-valley/merge-valley-02.jpg",
+        alt: "Merge Valley farming gameplay with crops, orders, and mergeable items",
+        fit: "contain",
+      },
+      {
+        src: "/images/merge-valley/merge-valley-03.jpg",
+        alt: "Merge Valley reward presentation with coins and premium currency",
+        fit: "contain",
+      },
+    ],
+    youtubeVideos: [
+      {
+        id: "uxWvjm2OF0E",
+        title: "Merge Valley: Farm Tycoon trailer",
+      },
+      {
+        id: "DN2M2m6mxWY",
+        title: "Merge Valley: Farm Tycoon gameplay video",
+      },
+    ],
+    overview: [
+      "Merge Valley: Farm Tycoon is a mobile puzzle and tycoon game published by Mon.co. Players merge seeds and tools, grow and harvest crops, fulfil orders, develop their farm, and direct monster workers as they expand through a progression-driven farming adventure.",
+      "As Senior Unity Developer, I helped establish the project from its initial Unity setup and remained deeply involved through production and release. My work spans foundational architecture, core gameplay, progression, content pipelines, backend-connected systems, monetization, live operations, platform integrations, and release hardening.",
+      "The role combined hands-on feature ownership with broad project integration. I built reusable systems for designers and developers, connected interdependent gameplay and economy features, strengthened save and purchase security, and resolved production issues across world switching, application resume, slow devices, networking, and live configurations.",
+    ],
+    responsibilities: [
+      "Established the initial Unity project and introduced Zenject dependency injection, Addressables, ZLinq, global signals, and reusable services for scenes, UI, input, game state, factories, and pooled VFX.",
+      "Built the authoritative merge-board architecture, including grids, slots, items, drag-and-drop, swapping, merging, generators, weighted item generation, charges, energy usage, crates, discovery, selling, and board-state overlays.",
+      "Developed farming plots and state-driven crop production with tools, seeds, tilling, watering, growth stages, harvesting, yield bonuses, upgrades, duration modifiers, storage, retrieval, and offline progress.",
+      "Created the monster-worker architecture with agents, job providers, chaining, eligibility, priority, navigation, animation states, merging, levels, stats, station assignment, and robust recovery from interrupted jobs or application resume.",
+      "Implemented farming, harvesting, carrying, storage, processing, and standby jobs so workers could automate production across the farm and its stations.",
+      "Built NPC order systems covering definitions, queues, spawning, partial and full fulfilment, board-item consumption, automated delivery, rewards, repeatable orders, eligibility, forced orders, completion tracking, and debug tools.",
+      "Created the quest framework with data-driven definitions, prerequisites, rewards, progress criteria, repeatable quests, submission validation, mission triggers, quest gates, and later FTUE redesign support.",
+      "Developed a ScriptableObject-driven FTUE and tutorial framework with reusable steps, overlays, cut-out highlights, gestures, dialogue, camera focus, action gates, wait conditions, checkpoints, resume support, contextual variants, anti-stuck behavior, and authoring tools.",
+      "Built shared station architecture and upgrade flows, then implemented configurable processing, input/output storage, juicing, serum effects, weighted results, automatic fetching, offline processing, and station skins.",
+      "Implemented multi-world progression with world-specific installers, scene switching, upgrades, reward queues, unlock flows, idle production, decoration modes, buildings, plots, skins, town-rating milestones, persistent cameras, and population spawning rules.",
+      "Developed the economy and reward experience across currencies, energy, experience, player levels, shops, gacha, cosmetics, daily login rewards, boosts, subscriptions, purchase bonuses, ad removal, and insufficient-currency routing.",
+      "Created and expanded save, load, migration, checkpoint, retry, reset, and offline-progress systems, including multi-world data isolation, per-user local saves, backend synchronization, rollback protection, and clock-change handling.",
+      "Integrated Google Play, guest, Firebase anonymous, and Sign in with Apple authentication, including session restoration, account binding, conflict comparison, account deletion, encrypted Android saves, Firestore persistence, and cloud-save selection flows.",
+      "Strengthened purchase and backend security with Firebase App Check, server-managed entitlements, server-authoritative IAP catalogs, purchase validation, replay protection, Google Play RTDN, Apple notifications, restore purchases, and protected reward delivery.",
+      "Created live-operations and experimentation support with A/B assignment, editor overrides, Remote Config, country and client-version targeting, variant-driven tutorials, quests, orders, prices and content, advertising rules, and limited-time-offer gates.",
+      "Developed mission, story, and dialogue systems connecting NPCs, quest completion, sequences, portraits, expressions, props, animation and audio timing, camera targets, lifecycle control, and FTUE story actions.",
+      "Delivered reusable screens, popups, reward presentations, tab flows, safe-area handling, camera controls, affordability and lock states, interaction blockers, BGM/SFX systems, and gameplay and progression VFX.",
+      "Improved reliability and team workflows through race-condition fixes, save-corruption safeguards, world-switch and resume fixes, performance protection for slower devices, configuration validators, repair utilities, content editors, animation tools, debug commands, and cross-branch integration.",
+    ],
+    details: [
+      { label: "Company", value: "LiquidX / Mon.co" },
+      { label: "Role", value: "Senior Unity Developer" },
+      { label: "Project Type", value: "Mobile merge farming / casual tycoon" },
+      { label: "Release", value: "Google Play · 10K+ downloads" },
+      { label: "Focus", value: "Gameplay architecture, live service, backend, tools, production delivery" },
+    ],
+    links: [
+      {
+        label: "Google Play",
+        href: "https://play.google.com/store/apps/details?id=com.pixelationlabs.mergevalley&hl=en",
+      },
+    ],
+  },
   {
     slug: "pixelmon-tcg",
     name: "Pixelmon TCG",
@@ -75,6 +169,10 @@ export const projects: Project[] = [
       {
         id: "VvGfIN7MbRQ",
         title: "Pixelmon TCG gameplay video",
+      },
+      {
+        id: "q7b1hFCza1M",
+        title: "Pixelmon TCG gameplay showcase",
       },
     ],
     overview: [
