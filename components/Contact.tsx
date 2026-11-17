@@ -6,6 +6,7 @@ export function Contact() {
     { label: "Email", href: `mailto:${contact.email}` },
     { label: "LinkedIn", href: contact.linkedin },
     { label: "GitHub", href: contact.github },
+    { label: "Resume", href: profile.resume },
   ];
 
   return (

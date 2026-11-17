@@ -1,6 +1,7 @@
 export const profile = {
   name: "Tan Weng Hong",
   role: "Senior Unity Developer",
+  resume: "https://docs.google.com/document/d/1sRMtTUfDEmlM8CYBOzYdhgL5Cqe4tLB55j3sU1GsILQ",
   image: "/images/1773627477341.jpg",
   heroBackgroundIntervalSeconds: 6,
   headline:

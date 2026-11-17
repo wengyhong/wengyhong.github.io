@@ -79,6 +79,14 @@ export function Hero() {
           >
             Contact Me
           </a>
+          <a
+            href={profile.resume}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex min-h-12 items-center justify-center rounded-md border hairline px-6 text-sm font-semibold text-mist-50 transition hover:border-mist-300 hover:bg-mist-50/5"
+          >
+            View Resume
+          </a>
         </div>
       </div>
       </div>
